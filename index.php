@@ -14,12 +14,13 @@
     2000 - movie_title
     2000 étant l'année de parution du film. 
 */
-    $titres=["Les Aventuriers de l'arche perdu","Indiana Jones et la Dernière Croisade","Indiana Jones 5"];
 
-    $releaseYear[$titres[0]]=2022;
-    $releaseYear[$titres[1]]=1989;
-    $releaseYear[$titres[2]]=1981;
-    
+    $releaseYear = [
+        "Indiana Jones 5" => 2022,   
+         "Les Aventuriers de l'arche perdu" => 1981,
+         "Indiana Jones et la Dernière Croisade" => 1989         
+    ];    
+
     asort($releaseYear);
 
     echo "<ul>";
